@@ -241,12 +241,38 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__("8bbf");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/Button.vue?vue&type=template&id=6b826d46
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/HeadingOne.vue?vue&type=template&id=0febc6be
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("button", null, " I'm a button ");
+  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("h1", null, "Heading One");
 }
-// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=template&id=6b826d46
+// CONCATENATED MODULE: ./src/components/HeadingOne.vue?vue&type=template&id=0febc6be
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/HeadingOne.vue?vue&type=script&lang=js
+/* harmony default export */ var HeadingOnevue_type_script_lang_js = ({
+  name: "HeadingOne"
+});
+// CONCATENATED MODULE: ./src/components/HeadingOne.vue?vue&type=script&lang=js
+ 
+// EXTERNAL MODULE: ./node_modules/vue-loader-v16/dist/exportHelper.js
+var exportHelper = __webpack_require__("6b0d");
+var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
+
+// CONCATENATED MODULE: ./src/components/HeadingOne.vue
+
+
+
+
+
+const __exports__ = /*#__PURE__*/exportHelper_default()(HeadingOnevue_type_script_lang_js, [['render',render]])
+
+/* harmony default export */ var HeadingOne = (__exports__);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/Button.vue?vue&type=template&id=faf54c6c
+
+function Buttonvue_type_template_id_faf54c6c_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("button", null, "I'm a button");
+}
+// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=template&id=faf54c6c
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/Button.vue?vue&type=script&lang=js
 /* harmony default export */ var Buttonvue_type_script_lang_js = ({
@@ -254,28 +280,31 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 });
 // CONCATENATED MODULE: ./src/components/Button.vue?vue&type=script&lang=js
  
-// EXTERNAL MODULE: ./node_modules/vue-loader-v16/dist/exportHelper.js
-var exportHelper = __webpack_require__("6b0d");
-var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
-
 // CONCATENATED MODULE: ./src/components/Button.vue
 
 
 
 
 
-const __exports__ = /*#__PURE__*/exportHelper_default()(Buttonvue_type_script_lang_js, [['render',render]])
+const Button_exports_ = /*#__PURE__*/exportHelper_default()(Buttonvue_type_script_lang_js, [['render',Buttonvue_type_template_id_faf54c6c_render]])
 
-/* harmony default export */ var Button = (__exports__);
+/* harmony default export */ var Button = (Button_exports_);
+// CONCATENATED MODULE: ./src/library.js
+
+
+/* harmony default export */ var library = ({
+  HeadingOne: HeadingOne,
+  Button: Button
+});
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (Button);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (library);
 
 
 
 /***/ })
 
-/******/ })["default"];
+/******/ });
 });
 //# sourceMappingURL=vue-components-test.umd.js.map
