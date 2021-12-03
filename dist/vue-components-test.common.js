@@ -258,16 +258,16 @@ var exportHelper_default = /*#__PURE__*/__webpack_require__.n(exportHelper);
 const __exports__ = /*#__PURE__*/exportHelper_default()(HeadingOnevue_type_script_lang_js, [['render',render]])
 
 /* harmony default export */ var HeadingOne = (__exports__);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/Button.vue?vue&type=template&id=faf54c6c
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/Button.vue?vue&type=template&id=2cf9467e
 
-function Buttonvue_type_template_id_faf54c6c_render(_ctx, _cache, $props, $setup, $data, $options) {
+function Buttonvue_type_template_id_2cf9467e_render(_ctx, _cache, $props, $setup, $data, $options) {
   return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("button", null, "I'm a button");
 }
-// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=template&id=faf54c6c
+// CONCATENATED MODULE: ./src/components/Button.vue?vue&type=template&id=2cf9467e
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader-v16/dist??ref--1-1!./src/components/Button.vue?vue&type=script&lang=js
 /* harmony default export */ var Buttonvue_type_script_lang_js = ({
-  name: "MyButton"
+  name: "Button"
 });
 // CONCATENATED MODULE: ./src/components/Button.vue?vue&type=script&lang=js
  
@@ -277,7 +277,7 @@ function Buttonvue_type_template_id_faf54c6c_render(_ctx, _cache, $props, $setup
 
 
 
-const Button_exports_ = /*#__PURE__*/exportHelper_default()(Buttonvue_type_script_lang_js, [['render',Buttonvue_type_template_id_faf54c6c_render]])
+const Button_exports_ = /*#__PURE__*/exportHelper_default()(Buttonvue_type_script_lang_js, [['render',Buttonvue_type_template_id_2cf9467e_render]])
 
 /* harmony default export */ var Button = (Button_exports_);
 // CONCATENATED MODULE: ./src/library.js
@@ -296,5 +296,5 @@ const Button_exports_ = /*#__PURE__*/exportHelper_default()(Buttonvue_type_scrip
 
 /***/ })
 
-/******/ });
+/******/ })["default"];
 //# sourceMappingURL=vue-components-test.common.js.map

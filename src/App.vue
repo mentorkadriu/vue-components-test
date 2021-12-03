@@ -1,3 +1,18 @@
+<template>
+  <div>
+    <HeadingOne/>
+    <Button/>
+  </div>
+</template>
 <script>
-export default { name: "App" };
+import HeadingOne from "./components/HeadingOne";
+import Button from "./components/Button";
+
+export default {
+  name: "App",
+  components: {
+    HeadingOne,
+    Button,
+  },
+};
 </script>
