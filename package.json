@@ -1,6 +1,6 @@
 {
   "name": "@mentorkadriu/vue-components-test",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-components-test ./src/components/*.vue",
