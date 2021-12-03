@@ -1,6 +1,6 @@
 {
   "name": "@mentorkadriu/vue-components-test",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "author": "Mentor Kadriu",
   "main": "./dist/vue-components-test.common.js",
   "scripts": {
